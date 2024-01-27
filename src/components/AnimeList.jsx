@@ -1,11 +1,13 @@
 import React from 'react';
-import Loader from './Loader'; // Adjust the import path based on your project structure
+// import Loader from './Loader'; // Adjust the import path based on your project structure
 
 const AnimeList = ({ animeList }) => {
   if (!animeList) {
     return (
       <div className="flex justify-center items-center h-100vh w-full">
-        <Loader type="ThreeDots" color="#00BFFF" height={80} width={80} />
+        {/* <Loader type="ThreeDots" color="#00BFFF" height={80} width={80} />
+         */}
+         <h1>Loading....</h1>
       </div>
     );
   }
